@@ -1,3 +1,8 @@
+# defining variable using 3 methods
+a = 20
+b <- 21
+assign("c",22)
+
 # defining vector
 fruits = c("mango","apple","banana",44)
 
@@ -16,3 +21,7 @@ hello = "45"
 print(typeof(hello))
 d = as.integer(hello)
 print(typeof(d))
+
+n = 34L
+print(typeof(n))
+g= "Hello world"
