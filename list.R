@@ -19,5 +19,6 @@ rowname = c('r1','r2','r3','r4')
 colname = c('c1','c2','c3')
 
 b = matrix(c(3:14),nrow=4,byrow = TRUE,dimnames = list(rowname,colname))
+b = matrix(c(3:14),nrow=4,byrow = TRUE,dimnames = list(rowname,colname))
 #b = matrix(c(3:14),nrow=4,byrow = TRUE,dimnames =list('r1','r2','r3','r4'),list('c1','c2','c3'))
 print(b)
